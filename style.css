@@ -228,5 +228,75 @@ h1 {
   height: 109vh;
 }
 
+@media (max-width: 768px){
+
+ 
+  .navbar{
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .nav-link{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  
+  .signup{
+    position: static;
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+ 
+  .about{
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .pict{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+  }
+
+ 
+  p{
+    font-size: 18px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  
+  .contact-form{
+    width: 100%;
+    height: auto;
+  }
+
+ 
+  footer{
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  
+  .main{
+    height: auto;
+    padding: 40px 10px;
+  }
+
+  
+  .image{
+    width: 50%;
+    max-width: 100%;
+    display: flex;
+  }
+
+}
+
 
 
